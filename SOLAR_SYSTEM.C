@@ -99,6 +99,8 @@ int main()
 			ellipse(midx, midy, 0, 360,	xrad[i], yrad[i]);
 		}
 
+		setcolor(YELLOW);
+		outtextxy(250,500,"SOLAR SYSTEM USING C" );
 		// Sun at the mid of solar system
 		setcolor(YELLOW);
 		setfillstyle(SOLID_FILL, YELLOW);
