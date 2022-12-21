@@ -20,6 +20,7 @@ void main()
     int gd = DETECT ,gm, i;
     float x, y,dx,dy,steps;
     int x1, x2, y1, y2;
+
     printf("\nEnter Values of x1: ");
     scanf("%d",&x1);
 
@@ -33,6 +34,7 @@ void main()
     scanf("%d",&y2);
 
     initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
+    setbkcolor(WHITE);
 
     dx = abs(x2 - x1);
     dy = abs(y2 - y1);
